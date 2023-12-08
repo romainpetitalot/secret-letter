@@ -41,6 +41,26 @@ export class BresilComponent implements OnInit {
     {
       this.cdr.detectChanges();
       this.currentMessage++;
+      if ( this.jsonData[this.currentMessage].type=="click" ){
+        const maZoneClick = document.getElementById(this.jsonData[this.currentMessage].div_id);
+        // Vérifiez si l'élément existe avant de tenter de le modifier
+        if (maZoneClick) {
+          maZoneClick.classList.remove("hidden");
+          maZoneClick.classList.add("block");
+        } 
+
+      }
+
+      if ( this.jsonData[this.currentMessage-1].type=="click" ){
+        const maZoneClick = document.getElementById(this.jsonData[this.currentMessage-1].div_id);
+        // Vérifiez si l'élément existe avant de tenter de le modifier
+        if (maZoneClick) {
+          maZoneClick.classList.remove("block");
+          maZoneClick.classList.add("hidden");
+        } 
+
+      }
+
     }
   }
 

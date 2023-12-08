@@ -1,5 +1,5 @@
 <div class="w-screen h-screen bg-carte" [ngStyle]="{'background-image': 'url(/assets/carte/background' + step + '.png)'}">
-    <app-zone-clickable id="usa" class="block" [idZone]="'usa'" (divClicked)="handleDivClick($event)"
+    <app-zone-clickable id="usa" class="hidden" [idZone]="'usa'" (divClicked)="handleDivClick($event)"
         [position]="{ top: 250, left: 400 }" [taille]="{ width: 200, height: 150 }">
     </app-zone-clickable>
     <div id="map-usa" class="hidden">
@@ -10,11 +10,11 @@
                     d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
             </svg>
         </div>
-        <iframe style="width: 80%; height: 800px; border: 0px none;"
+        <iframe style="width: 70%; height: 650px; border: 0px none;"
             src="https://ourworldindata.org/grapher/co2-emissions-aviation"></iframe>
     </div>
 
-    <app-zone-clickable id="chine" class="block" [idZone]="'chine'" (divClicked)="handleDivClick($event)"
+    <app-zone-clickable id="chine" class="hidden" [idZone]="'chine'" (divClicked)="handleDivClick($event)"
         [position]="{ top: 300, left: 1280 }" [taille]="{ width: 200, height: 150 }">
     </app-zone-clickable>
     <div id="map-chine" class="hidden">
@@ -25,11 +25,11 @@
                     d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
             </svg>
         </div>
-        <iframe style="width: 80%; height: 800px; border: 0px none;"
+        <iframe style="width: 70%; height: 650px; border: 0px none;"
             src="https://ourworldindata.org/grapher/co-emissions-per-capita"></iframe>
     </div>
 
-    <app-zone-clickable id="bresil" class="block" [idZone]="'bresil'" (divClicked)="handleDivClick($event)"
+    <app-zone-clickable id="bresil" class="hidden" [idZone]="'bresil'" (divClicked)="handleDivClick($event)"
         [position]="{ top: 470, left: 600 }" [taille]="{ width: 200, height: 150 }">
     </app-zone-clickable>
     <div id="map-bresil" class="hidden">
@@ -40,11 +40,11 @@
                     d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
             </svg>
         </div>
-        <iframe style="width: 80%; height: 800px; border: 0px none;"
+        <iframe style="width: 70%; height: 650px; border: 0px none;"
             src="https://ourworldindata.org/grapher/annual-deforestation"></iframe>
     </div>
 
-    <app-zone-clickable id="oceanie" class="block" [idZone]="'oceanie'" (divClicked)="handleDivClick($event)"
+    <app-zone-clickable id="oceanie" class="hidden" [idZone]="'oceanie'" (divClicked)="handleDivClick($event)"
         [position]="{ top: 470, left: 1350 }" [taille]="{ width: 200, height: 150 }">
     </app-zone-clickable>
     <div id="map-oceanie" class="hidden">
@@ -55,11 +55,11 @@
                     d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
             </svg>
         </div>
-        <iframe style="width: 80%; height: 800px; border: 0px none;"
+        <iframe style="width: 70%; height: 650px; border: 0px none;"
             src="https://ourworldindata.org/grapher/global-marine-protected-area"></iframe>
     </div>
 
-    <app-zone-clickable id="arctique" class="block" [idZone]="'arctique'"
+    <app-zone-clickable id="arctique" class="hidden" [idZone]="'arctique'"
         (divClicked)="handleDivClick($event)" [position]="{ top: 90, left: 650 }"
         [taille]="{ width: 200, height: 150 }">
     </app-zone-clickable>
@@ -71,7 +71,7 @@
                     d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
             </svg>
         </div>
-        <iframe style="width: 80%; height: 800px; border: 0px none;"
+        <iframe style="width: 70%; height: 650px; border: 0px none;"
             src="https://ourworldindata.org/grapher/antarctic-ozone-hole-area"></iframe>
     </div>
 

@@ -22,10 +22,17 @@ export class CarteComponent implements OnInit {
         this.jsonData = data;
       });
     });
-    
-    
+    for (let i = 0; i < this.step; i++) {   
+      const maZoneClick = document.getElementById(this.zoneClick[i]);
+      // Vérifiez si l'élément existe avant de tenter de le modifier
+      if (maZoneClick) {
+        // maZoneClick.style.display = 'none';
+        console.log("zoneclick "+i);
+        maZoneClick.classList.remove("hidden");
+        maZoneClick.classList.add("block");
+      } 
 
-
+    }
   }
 
 
@@ -37,7 +44,6 @@ export class CarteComponent implements OnInit {
         maMap.classList.remove("hidden");
         maMap.classList.add("block");
         this.mapOpened = maMap;
-        // this.isDisplayed = true;
         this.zoneClick.forEach((zone) => {
           let maZoneCLick = document.getElementById(zone);
           if (maZoneCLick) {
@@ -79,6 +85,17 @@ export class CarteComponent implements OnInit {
     } else {
       this.cdr.detectChanges();
       this.currentMessage++;
+
+      if (this.currentMessage == this.jsonData.length-1){
+        const maZoneClick = document.getElementById(this.zoneClick[this.step]);
+        // Vérifiez si l'élément existe avant de tenter de le modifier
+        if (maZoneClick) {
+          maZoneClick.classList.remove("hidden");
+          maZoneClick.classList.add("block");
+        } 
+   
+      }
+
     }
   }
 
@@ -88,15 +105,18 @@ export class CarteComponent implements OnInit {
     if (this.mapOpened) {
       this.mapOpened.classList.remove("block");
       this.mapOpened.classList.add("hidden");
-      // this.isDisplayed = false;
-      this.zoneClick.forEach((zone) => {
-        let maZoneCLick = document.getElementById(zone);
+
+      // Si on a lu tous les messages il faut afficher les premières zones cliquables plus la suivante 
+      // Sinon on affiche seulement les premières zones cliquables
+      for (let i = 0; this.currentMessage == this.jsonData.length-1 ? i < this.step+1 : i < this.step  ; i++ ){
+        let maZoneCLick = document.getElementById(this.zoneClick[i]);
         if (maZoneCLick) {
           maZoneCLick.classList.remove("hidden");
           maZoneCLick.classList.add("block");
     
         }
-      });
+
+      }
       this.mapOpened = null;
 
     }

@@ -1,6 +1,6 @@
 .clickable-div {
     cursor: pointer;
     position:absolute;
-    /* background-color: red; */
-    /* opacity: .2; */
+    background-color: red;
+    opacity: .2;
 }
