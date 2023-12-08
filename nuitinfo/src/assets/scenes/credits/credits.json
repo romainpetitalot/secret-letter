@@ -1,0 +1,37 @@
+[
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Projet réalisé pour la nuit de l'info 2023 par l'équipe Secret Letter de l'INSA de Rouen."
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Recherche informationnelle : Ambre De Crescenzo, Kevin Laurent"
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Structure du site : Alexis Imbert, Brice Grindel, Pierre Luypaert, Romain Petitalot"
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Story telling : Ambre De Crescenzo, Kevin Laurent, Lucas Martin"
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Open data : Alexis Imbert, Lucas Martin, Romain Petitalot"
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Génération d'images : Alexis Imbert, Brice Grindel"
+  },
+  {
+    "type": "end-message",
+    "perso": "perso",
+    "texte": "Sound design : Brice Grindel, Kevin Laurent"
+  }
+]

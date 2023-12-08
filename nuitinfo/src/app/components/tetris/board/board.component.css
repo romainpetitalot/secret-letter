@@ -1,0 +1,93 @@
+* {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.with-border {
+  border: 3px solid #000000;
+  background-color: #f0f0f0;
+  border-radius: 3%;
+}
+
+/* Reset de certaines propriétés par défaut du navigateur pour une base propre */
+body, h1, h2, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style général pour le conteneur principal */
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh; /* Ajustez selon vos besoins */
+  padding: 200px; /* Ajoute une certaine marge autour du contenu */
+  /* background-color: #45a049; */
+  /* margin-left: -300px; */
+}
+
+/* Style pour la colonne de droite */
+.right-column {
+  background-color: #f0f0f0; /* Couleur de fond pour la colonne de droite */
+  padding: 20px; /* Ajoute une certaine marge interne */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+  /* margin-left: -600px; */
+  border: 3px solid #000; /* Ajoute une bordure uniquement à la div de droite */
+  border-radius: 3%;
+  /* width: 60%; */
+  /* height: 80%; */
+  margin-left: -150px;
+  margin-top: -100px;
+}
+
+.left-column{
+  /* background-color: #9c8d8d; */
+  margin-left: -350px;
+  margin-top: -300px;
+}
+
+.middle-column{
+  /* background-color: #9c8d8d; */
+  margin-left: -250px;
+}
+
+/* Style pour le titre */
+h1 {
+  font-size: 44px;
+  margin-bottom: 10px;
+  text-align: center; /* Centre le texte horizontalement */
+  margin: auto; /* Centre le texte verticalement */
+  color: #f0f0f0;
+  /* background-color: #45a049; */
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Style pour les paragraphes */
+p {
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+/* Style pour le bouton "Play" */
+.play-button {
+  background-color: #4caf50; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Ajout d'une marge supérieure pour décaler vers le bas */
+}
+
+.play-button:hover {
+  background-color: #45a049; /* Couleur de fond du bouton au survol */
+}
+
+
+

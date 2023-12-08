@@ -1,0 +1,15 @@
+[
+    {
+      "type": "message",
+      "texte": "De pire en pire... Ces statistiques sont catastrophiques..."
+    },
+    {
+        "type": "message",
+        "texte": "Peut-être que l'Océanie et sa barrière de corrail se porteront mieux ?"
+    },
+    {
+        "type": "click",
+        "div_id":"oceanie"
+    }
+]
+  

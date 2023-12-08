@@ -1,0 +1,51 @@
+.bulle {
+    position: absolute;
+    width: 60%;
+    height: 200px;
+    background-color: rgb(205, 205, 205);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+    border: 10px solid#604721;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bulle-container {
+    position: relative;
+    height:100%;
+    width:100%;
+    border: 10px solid #82602d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #533a14;
+    font-weight: bold;
+    flex-direction: column;
+    font-size:x-large;
+    padding:5px;
+}
+
+.croix {
+    z-index: 9999;
+    position: absolute;
+    top:-27px;
+    right:-27px;
+    width:60px;
+    height:60px;
+    background-color: #533a14;
+    border-radius: 100%;
+}
+
+.croix svg {
+    margin:13px;
+    width: 60%;
+    height: 60%;
+    fill: white; /* Couleur de la croix */
+}
+
+.answer:hover {
+    color:rgb(202, 83, 83);
+    text-decoration: underline;
+}

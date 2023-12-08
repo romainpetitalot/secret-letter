@@ -1,0 +1,26 @@
+[{
+    "type": "message",
+    "perso": "perso",
+    "texte": "Je suis Riglote, une boule de Noël pas comme les autres. Contrairement à mes compères qui pendent joyeusement sur le grand sapin de l'atelier du Père Noël, je rêve d'aventures extraordinaires."
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Un soir, je fus soudainement animée d'une énergie magique. Je me mis à virevolter dans l'air avant de me poser délicatement dans la main du joyeux vieillard."
+  },
+  {
+    "type": "message",
+    "perso": "papa",
+    "texte": "Qu'est-ce qui te prend, Riglote ? s'exclama le Père Noël, surpris."
+  },
+  {
+    "type": "message",
+    "perso": "perso",
+    "texte": "Je scintillai joyeusement et murmurai dans une voix étincelante : Père Noël, cette année, je veux voir le monde et faire partie de la tournée des cadeaux. "
+  },
+  {
+    "type": "message",
+    "perso": "papa",
+    "texte": "Le Père Noël, souriant devant ma demande inhabituelle, hocha la tête et dit : Eh bien, Riglote, monte à bord du traîneau. Cette année, tu seras ma compagne de voyage ! "
+  }
+]

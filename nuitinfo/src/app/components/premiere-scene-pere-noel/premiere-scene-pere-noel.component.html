@@ -1,0 +1,5 @@
+<div class="w-screen h-screen bg-premiere-scene">
+    <ng-container *ngIf="this.jsonData.length > 0 && this.jsonData[this.currentMessage].texte">
+        <app-bulle (divClicked)="cross()" [messageObject]="this.jsonData[this.currentMessage]"></app-bulle>
+    </ng-container>
+</div>

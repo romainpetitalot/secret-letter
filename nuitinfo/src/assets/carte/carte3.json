@@ -1,0 +1,19 @@
+[
+    {
+      "type": "message",
+      "texte": "Bon bah le Brésil... ce n'est pas plus rassurant que nos précédentes destinations..."
+    },
+    {
+        "type": "message",
+        "texte": "Les statistiques ne sont pas très bonnes..."
+    },
+    {
+        "type": "message",
+        "texte": "Changeons de continent et partons en Chine."
+    },
+    {
+        "type": "click",
+        "div_id":"chine"
+    }
+]
+  

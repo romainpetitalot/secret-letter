@@ -1,0 +1,185 @@
+[
+  {
+    "type": "message",
+    "perso":"papa",
+    "texte": "Enfin un peu d'ombre !"
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Je rêve d'être sous un arbre avec un coktail à la main."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Plus de stress lié aux cadeaux de Noël."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Plus de vents froids qui frigorifie ma moustache."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et je ne vois que des arbres morts à perte de vue !"
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Allons voir de plus près dans quel état ils sont."
+    },
+    {
+      "type": "click",
+      "div_id":"arbre_sans_feuille"
+  },
+  {
+      "type": "question",
+      "perso":"papa",
+      "texte": "D'ailleurs, est-ce que tu sais combien de tonnes de CO2 les forêts tropicales absorbent ?",
+      "reponses": [
+            {
+                "texte":"300 millions",
+                "isValid":false
+            },
+            {
+                "texte":"800 millions",
+                "isValid":false
+            },
+            {
+              "texte":"250 milliards",
+              "isValid":false
+          },
+          {
+              "texte":"450 milliards",
+              "isValid":true
+          }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "450 milliards de tonne selon une étude de GWF en 2018."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "C'est à peu près le poids de cookies que je mange chaque année sur les sites webs." 
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Maintenant, je suis curieux de savoir pourquoi il y a aussi peu d'arbres ici." 
+    },
+    {
+      "type": "click",
+      "div_id":"hache"
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Coupable : déforestation. Arme du crime :  hache. Lieu : forêt amazonienne."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "A ton avis, quelle est la première cause de deforestation dans le monde ?"
+    },
+    {
+      "type": "question",
+      "perso":"papa",
+      "texte": "Quelle est la source d’énergie la plus importante pour ses industries ?",
+      "reponses": [
+            {
+                "texte":"Feux de forêt",
+                "isValid":false
+            },
+            {
+                "texte":"Urbanisation",
+                "isValid":false
+            },
+            {
+              "texte":"Agriculture",
+              "isValid":true
+          },
+          {
+              "texte":"Exploitation forestière",
+              "isValid":false
+          }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "C'est l'agriculture (culture et pâturage) qui cause entre 27 et 50% de la déforestation selon National Geographic et WWF."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "C'est que ça mange ces petites bébètes !"
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Je pourrai te parler du Capybara qui mange 8% de son poids mais ça ne vit pas au Brésil."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Mais trêve de bavardages ! Ton voyage vient à peine de commencer."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Avec ta petite taille, tu devrais au moins pouvoir profiter du feuillage d'une jeune pousse."
+    },
+  {
+      "type": "click",
+      "div_id":"jeune_pousse"
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Le cycle de la vie est ridiculement fragile."
+    },
+    {
+      "type": "question",
+      "perso":"papa",
+      "texte": "Les forêts ne pourraient pas se régénérer si on ne replantait pas d’arbres",
+      "reponses": [
+            {
+                "texte":"Vrai",
+                "isValid":false
+            },
+            {
+                "texte":"Faux",
+                "isValid":true
+            }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "On pourrait penser qu'à force de couper des arbres, il n'y aura plus de racines."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Mais les forêts se regénèrent d'elles-même grâce aux nombreuses graines semés au cours de leur vie."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Si le sol n'a pas subi de modification majeure, comme un déchiffrement, de nouveaux arbres repoussent."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Selon l'ONF, il faut entre 10 et 20 ans pour avoir un bosquet verdoyant."
+    },
+  {
+      "type": "end-message",
+      "perso":"papa",
+      "texte": "Heureusement que je dois attendre moins longtemps pour que ma moustache repousse. "
+  }
+]

@@ -1,0 +1,18 @@
+<div class="bulle">
+    <div class="bg-perso" 
+        [style.top.px]="positionAndIndex.top"
+        [style.left.px]="positionAndIndex.left"
+        [style.z-index]="positionAndIndex.index"
+        [style.transform]="positionAndIndex.transform"
+        [style.background-image]="'url(/assets/'+messageObject.perso+'.png)'">
+    </div>
+    <div class="croix hover:cursor-pointer" (click)="crossOrAnswer()" *ngIf="!messageObject.reponses || messageObject.reponses && selectedAnswers.length > 0">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 4h-5.439l4.025 4.006h-14.586v7.988h14.586l-4.025 4.006h5.439l8-8z"/></svg>
+    </div>
+    <div class="bulle-container">
+        {{ messageObject.texte }}
+        <div *ngIf="messageObject.reponses" class="bulle-answer flex flex-row w-100 gap-10">
+            <div *ngFor="let answer of messageObject.reponses" class="answer" (click)="handleClick(answer)" [ngStyle]="{'color': isSelected(answer) ? 'red' : 'inherit' }">{{ answer.texte }}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,173 @@
+[
+  {
+    "type": "message",
+    "perso":"papa",
+    "texte": "Par les lunettes de mon grand-père, c'est qu'il y a du brouillard par ici !"
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "On n'est pas gâté ici, avec les émissions de gaz carbonnique."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et ce n'est qu'une ville parmi la très longue liste de celles qui abritent un smog."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Tu ne le sais peut être pas Riglote, mais la Chine est devenu le premier émetteur de gaz carbonique."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Avant, c'était les Etats-Unis les premiers."
+    },
+    {
+      "type": "message",
+      "perso":"perso",
+      "texte": "Je me demande bien d'où est-ce que ces gaz peuvent venir."
+    },
+    {
+      "type": "click",
+      "div_id":"smoke"
+  },
+  {
+      "type": "question",
+      "perso":"papa",
+      "texte": "D'où vient cette production massive de GES ?",
+      "reponses": [
+            {
+                "texte":"Transport",
+                "isValid":false
+            },
+            {
+                "texte":"Production d'énergie",
+                "isValid":false
+            },
+            {
+              "texte":"Industrie",
+              "isValid":true
+          }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Je ne pense pas que ça te surprend avec le nombre d'usines présentes ici."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "25% des GES émis ici provient de la production de biens consommés à l'étranger." 
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "C'est pour ça que la Chine a obtenu le surnom d'usine du monde." 
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Mais une usine ne tourne pas à l'amour et l'eau fraîche."
+    },
+    {
+      "type": "message",
+      "perso":"perso",
+      "texte": "Je me demande ce qui pourrait acheminer toute cette énergie."
+    },
+    {
+      "type": "click",
+      "div_id":"usine"
+  },
+    {
+      "type": "question",
+      "perso":"papa",
+      "texte": "Quelle est la source d’énergie la plus importante pour ses industries ?",
+      "reponses": [
+            {
+                "texte":"Le pétrole",
+                "isValid":false
+            },
+            {
+                "texte":"Le charbon",
+                "isValid":true
+            },
+            {
+              "texte":"Le nucléaire",
+              "isValid":false
+          }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Le charbon est encore la source de 75% de l'électricité chinoise."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Un des moyens de réduire les GES serait de mettre en place des politiques d'économie d'énergie."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et ce dès la conception !"
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Mais la population se sent de plus en plus concernée par l'impact environnemental."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Est-ce que tu vois cette volonté ?"
+    },
+  {
+      "type": "click",
+      "div_id":"panneau_developpement_durable"
+  },
+  
+    {
+      "type": "question",
+      "perso":"papa",
+      "texte": "Quelles mesures le gouvernement a-t-il pris en place ?",
+      "reponses": [
+            {
+                "texte":"Investir dans la recherche pour le développement durable",
+                "isValid":true
+            },
+            {
+                "texte":"Investir dans des technologies vertes",
+                "isValid":true
+            }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Les deux mesures ont été prises."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "29% d'augmentation du budget consacré à la recherche."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et 34 milliards de dollars investis dans les technologies vertes."
+    },
+    {
+      "type": "message",
+      "perso":"perso",
+      "texte": "Avec ça, on n'arrête plus le progrès."
+    },
+  {
+      "type": "end-message",
+      "perso":"papa",
+      "texte": "Ni notre livraison de cadeau ! Attache bien ta ceinture, ça va secouer !"
+  }
+]

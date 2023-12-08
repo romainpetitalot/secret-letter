@@ -1,0 +1,51 @@
+[
+    {
+      "type": "message",
+      "perso": "papa",
+      "texte": "Au début de notre aventure nous passons par l'Arctique. Il me dit que la fonte des glaces était parfaitement visible."
+    },
+    {
+        "type": "question",
+        "perso": "papa",
+        "texte": "Est ce que tu sais quel est le taux de fonte des glaces ?",
+        "reponses": [
+              {
+                  "texte":"20 % par an",
+                  "isValid":false
+              },
+              {
+                  "texte":"15 % tous les 5 ans ",
+                  "isValid":false
+              },
+              {
+                  "texte":"13 % tous les 10 ans",
+                  "isValid":true
+              },
+              {
+                "texte":"10 % tous les 50 ans",
+                "isValid":false
+              }
+          ]
+    },
+    {
+      "type": "message",
+      "perso": "papa",
+      "texte": "En effet ma petite Riglote, 13% tous les 10 ans selon le GIEC; cela implique notamment la montée des eaux et le réchauffement des océans"
+    },
+    {
+      "type": "message",
+      "perso": "papa",
+      "texte": "Père Noël: Continuons ensemble notre tour du monde pour observer les causes de ce réchauffement climatique."
+    },
+    {
+      "type": "message",
+      "perso": "perso",
+      "texte": "J'espère qu'on trouvera aussi des solutions pour réduire son impact !"
+    },
+    {
+        "type": "end-message",
+        "perso": "papa",
+        "texte": "Bravo tu as fini la première partie de l'aventure!"
+    }
+  ]
+  

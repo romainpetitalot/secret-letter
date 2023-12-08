@@ -1,0 +1,169 @@
+[
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Sweet home Alabama !"
+    },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Quel plaisir de revenir aux Etats-Unis."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Adieu le traineau et les rennes, place à la modernité !"
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Voiture, train, avion ... Tu vas voir Riglote, on voyage en un éclair."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Montre-moi quel est le moyen de transport privilégié par la population ? (ferme la pop-up puis clique sur le moyen de transport)"
+      },
+      {
+        "type": "click",
+        "div_id":"voitures"
+    },
+    {
+        "type": "question",
+        "perso":"papa",
+        "texte": "Quel est le secteur produit le plus de gaz à effet de serre en 2022 aux Etats Unis ?",
+        "reponses": [
+              {
+                  "texte":"Agriculture",
+                  "isValid":false
+              },
+              {
+                  "texte":"Transport",
+                  "isValid":true
+              }
+          ]
+    },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Bonne réponse Riglote !"
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Les transports consomment 28% du total émis en un an, contre 10 % pour l'agriculture." 
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Regarde ce brouillard de pollution" 
+      },
+      {
+        "type": "click",
+        "div_id":"pollution"
+    },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Une des solutions mise en place par les USA pour réduire les GES est de réduire les consommations des véhicules en imposant des réglementations aux constructeurs."
+      },
+      {
+        "type": "question",
+        "perso":"papa",
+        "texte": "Mais sur quel secteur cela aura le plus d’impact ?",
+        "reponses": [
+              {
+                  "texte":"Véhicules des particuliers (Voiture et camionette)",
+                  "isValid":true
+              },
+              {
+                  "texte":"Véhicules de transport de marchandises (Camion lourd)",
+                  "isValid":false
+              }
+          ]
+    },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Exactement Riglote."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Une réduction de 6 milliards de tonnes de CO2 est prévue sur la vie entière d'un véhicule particulier."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Elle est de 270 millions de tonnes pour les camions de transport."
+      },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Heureusement que j'ai encore mes rennes qui carburent à la carotte."
+    },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Maintenant, place à un peu de réflexion."
+      },
+      {
+        "type": "question",
+        "perso":"papa",
+        "texte": "Que pouvons-nous faire pour réduire à notre échelle les GES ?",
+        "reponses": [
+              {
+                  "texte":"Conduire moins",
+                  "isValid":true
+              },
+              {
+                  "texte":"Conduire économiquement",
+                  "isValid":true
+              },
+              {
+                "texte":"Choisir des véhicules économes",
+                "isValid":true
+            },
+            {
+                "texte":"Choisir des modes de transport écologiques",
+                "isValid":true
+            }
+          ]
+    },
+    {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Toutes les réponses sont bonnes."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Tu peux choisir des modes de transport adaptés à la distance parcourue ..."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Adapter ta conduite pour consommer le moins de carburant ..."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Utiliser un véhicule avec un bon rendement énergétique ..."
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Et choisir le mode de transport le plus écologique possible !"
+      },
+      {
+        "type": "message",
+        "perso":"papa",
+        "texte": "Chacune de ses solutions peut s'adapter à ton quotidien."
+      },
+    {
+        "type": "end-message",
+        "perso":"papa",
+        "texte": "Mais n'oublie jamais : rien ne vaut un bon renne de papa Noël poir faire le tour de la terre."
+    }
+  ]
+  

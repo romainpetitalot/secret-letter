@@ -1,0 +1,134 @@
+[
+  {
+    "type": "message",
+    "perso":"papa",
+    "texte": "Notre bonne étoile nous a conduit en Océanie !"
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Ou celle de l'algorithme A*."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et le temps est idéal pour aller surf-... pour aller LIVRER des cadeaux de Noël."
+    },
+    {
+      "type": "message",
+      "perso":"perso",
+      "texte": "Heureusement que l'océan est à deux pas. Littéralement."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "On peux aller y jeter un oeil Riglote. Juste un oeil, pas deux."
+    },
+    {
+      "type": "click",
+      "div_id":"ocean"
+  },
+  {
+      "type": "question",
+      "perso":"papa",
+      "texte": "Est-ce que les océans jouent un rôle dans l’absorption des gaz à effet de serre ?",
+      "reponses": [
+            {
+                "texte":"Oui",
+                "isValid":true
+            },
+            {
+                "texte":"Non",
+                "isValid":false
+            }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Oui, car il permet de capturer environ 30% du CO2 émis par les humains selon le CNRS."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Cela s’explique par 2 phénomènes ; la dissolution dans l’eau du CO2 et la photosynthèse du phytoplancton." 
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "En parlant de phytoplancton, ce ne sont pas les seuls animaux fantastiques qui peuplent les océans." 
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "On a des poissons, des poissons, encore des poissons, mais quand même un peu de corail." 
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Tu as déjà vu à quoi ça ressemble du corail ?" 
+    },
+    {
+      "type": "click",
+      "div_id":"corail"
+  },
+    {
+      "type": "question",
+      "perso":"papa",
+      "texte": "Contre l'acidification des océans, quelle est la meilleure solution sociétale ? ",
+      "reponses": [
+            {
+                "texte":"Créer des aires marines protégées",
+                "isValid":true
+            },
+            {
+                "texte":"Rendre les océans plus basiques avec des alcalins",
+                "isValid":false
+            },
+            {
+              "texte":"Capter le CO2 des océans",
+              "isValid":false
+          }
+        ]
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "La création d'aires marines protégées (Ex : murs marins végétaux) est le plus viable d’un point de vue économique et peut même générer des avantages. "
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "De plus, les deux autres solutions ont une forte empreinte d’eau."
+    },
+    {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et elles génèrent des tensions concernant la répartition des ressources selon le paragraphe TS.D.5.6 du 6ème rapport du GIEC."
+    },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et je crois que c'est la fin de notre voyage Riglote."
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "J'espère que tu auras en appris beaucoup en tout cas."
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Et toi aussi, petit farfadet derrière ton écran. Oui toi là."
+  },
+  {
+      "type": "message",
+      "perso":"papa",
+      "texte": "Merci d'avoir joué le jeu jusqu'au bout."
+  },
+  {
+      "type": "end-message",
+      "perso":"papa",
+      "texte": "D'ailleurs est-ce que tu as trouvé la surprise sur ce site (cherche bien...)"
+  }
+]

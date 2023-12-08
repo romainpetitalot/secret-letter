@@ -1,0 +1,19 @@
+[
+    {
+      "type": "message",
+      "texte": "L'amérique, c'est fait ! J'espère voir des choses plus encourageantes..."
+    },
+    {
+        "type": "message",
+        "texte": "Tu peux consulter les statistiques que nous avons récolter..."
+    },
+    {
+        "type": "message",
+        "texte": "Passons désormais au Brésil..."
+    },
+    {
+        "type": "click",
+        "div_id":"bresil"
+    }
+]
+  

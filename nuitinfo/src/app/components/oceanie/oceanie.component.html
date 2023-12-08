@@ -1,0 +1,15 @@
+<div class="w-screen h-screen bg-oceanie">
+    <app-zone-clickable [idZone]="'ocean'" (divClicked)="handleDivClick($event)" 
+        [position]="{ top: 750, left: 0 }" 
+        [taille]="{ width: 2000, height: 350 }">
+    </app-zone-clickable>
+
+    <app-zone-clickable [idZone]="'corail'" (divClicked)="handleDivClick($event)" 
+        [position]="{ top: 800, left: 75 }" 
+        [taille]="{ width: 300, height: 200 }">
+    </app-zone-clickable>
+
+    <ng-container *ngIf="this.jsonData.length > 0 && this.jsonData[this.currentMessage].texte">
+        <app-bulle (divClicked)="cross()" [messageObject]="this.jsonData[this.currentMessage]"></app-bulle>
+    </ng-container>
+</div>

@@ -1,0 +1,30 @@
+<body class="w-screen h-screen bg-tetris">
+    <h1>Erreur 404 Page non existante</h1>
+    <h1>Voici un petit jeu pour passer le temps</h1>
+    <h1>Obtenez 404 points pour terminer le jeu</h1>
+    
+    <div class="grid">
+        <div class="left-column">
+            <h2>Comment jouer ?</h2>
+            <p>Appuyez sur les flèches gauche et droite pour déplacer la pièce à gauche et à droite.</p>
+            <p>Appuyez sur la flèche vers le haut pour faire pivoter la pièce.</p>
+            <p>Appuyez sur la flèche vers le bas pour déplacer la pièce vers le bas.</p>
+            <p>Appuyez sur la barre d'espace pour faire tomber la pièce rapidement.</p>
+        </div>
+        <div class="middle-column">
+            <canvas #board class="game-board with-border"></canvas>
+        </div>
+        <div class="right-column">
+            <div>
+                <h2>TETRIS</h2>
+                <p>Score: {{ floor(points) }}</p>
+                <p>Lines: {{ lines }}</p>
+                <p>Level: {{ level }}</p>
+                <canvas #next class="next with-border"></canvas>
+            </div>
+            <button (click)="play()" class="play-button">Play</button>
+        </div>
+        
+    </div>
+    
+</body>
