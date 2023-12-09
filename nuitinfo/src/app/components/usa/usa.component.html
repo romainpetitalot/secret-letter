@@ -1,10 +1,10 @@
 <div class="w-screen h-screen bg-usa">
-    <app-zone-clickable [idZone]="'voitures'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="voitures" [idZone]="'voitures'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 600, left: 100 }" 
         [taille]="{ width: 1700, height: 350 }">
     </app-zone-clickable>
 
-    <app-zone-clickable [idZone]="'pollution'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="pollution" [idZone]="'pollution'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 100, left: 400 }" 
         [taille]="{ width: 1000, height: 500 }">
     </app-zone-clickable>

@@ -1,10 +1,10 @@
 <div class="w-screen h-screen bg-oceanie">
-    <app-zone-clickable [idZone]="'ocean'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="ocean" [idZone]="'ocean'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 750, left: 0 }" 
         [taille]="{ width: 2000, height: 350 }">
     </app-zone-clickable>
 
-    <app-zone-clickable [idZone]="'corail'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="corail" [idZone]="'corail'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 800, left: 75 }" 
         [taille]="{ width: 300, height: 200 }">
     </app-zone-clickable>

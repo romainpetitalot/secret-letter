@@ -1,15 +1,15 @@
 <div class="w-screen h-screen bg-chine">
-    <app-zone-clickable [idZone]="'smoke'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="smoke" [idZone]="'smoke'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 0, left: 800 }" 
         [taille]="{ width: 800, height: 400 }">
     </app-zone-clickable>
 
-    <app-zone-clickable [idZone]="'usine'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="usine" [idZone]="'usine'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 500, left: 800 }" 
         [taille]="{ width: 800, height: 250 }">
     </app-zone-clickable>
 
-    <app-zone-clickable [idZone]="'panneau_developpement_durable'" (divClicked)="handleDivClick($event)" 
+    <app-zone-clickable class="hidden" id="panneau_developpement_durable" [idZone]="'panneau_developpement_durable'" (divClicked)="handleDivClick($event)" 
         [position]="{ top: 550, left: 100 }" 
         [taille]="{ width: 500, height: 270 }">
     </app-zone-clickable>
